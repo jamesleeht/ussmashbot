@@ -20,9 +20,8 @@ const bot = new TelegramBot(token, { polling: true });
 
 // Message listener
 bot.on("message", (msg) => {
-  const chatId = msg.chat.id;
   console.log("MESSAGE: " + msg.text);
-  processMessage(msg.text);
+  handleMessage(msg);
 });
 
 // Welcome message listener
@@ -33,8 +32,10 @@ bot.on("new_chat_members", (msg) => {
   );
 });
 
-function processMessage(text) {
-  // check for commands
+function handleMessage(msg) {
+  let { text } = msg;
+  let chatId = msg.chat.id;
+  // Commands
   switch (text) {
     case "/broke":
     case "/broke@nusmash_bot":
@@ -45,20 +46,23 @@ function processMessage(text) {
       );
       break;
     default:
-      if (text) languageProcessing(text);
+      processLanguage(chatId, text);
   }
 }
 
-function languageProcessing(text) {
-  axios
-    .get(luis + text)
-    .then(function (response) {
-      let reply = responses[response.data.prediction.topIntent];
-      if (reply) {
-        bot.sendMessage(chatId, reply);
-      }
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
+function processLanguage(chatId, text) {
+  // Make NLP request
+  if (text) {
+    axios
+      .get(luis + text)
+      .then(function (response) {
+        let reply = responses[response.data.prediction.topIntent];
+        if (reply) {
+          bot.sendMessage(chatId, reply);
+        }
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  }
 }
