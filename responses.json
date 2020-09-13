@@ -1,0 +1,38 @@
+[
+    {
+        "intent": "gnw",
+        "response": "gnw players are all bad people"
+    },
+    {
+        "intent": "palu",
+        "response": "palu is way too good for how easy she is"
+    }, 
+    {
+        "intent": "pika",
+        "response": "pika kinda broke but at least it takes effort"
+    }, 
+    {
+        "intent": "sonic",
+        "response": "sonic on wifi is like late stage cancer"
+    }, 
+    {
+        "intent": "cancer",
+        "response": "GNW is the most cancer character. Followed by palu."
+    }, 
+    {
+        "intent": "kh",
+        "response": "do not speak the name of the exiled."
+    }, 
+    {
+        "intent": "lylat",
+        "response": "please remove lylat from stage rotation"
+    },
+    {
+        "intent": "nuseg",
+        "response": "nuseg and everyone in it is evil"
+    },  
+    {
+        "intent": "anime",
+        "response": "weebs"
+    }
+]
