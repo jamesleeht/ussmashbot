@@ -7,13 +7,12 @@ require("dotenv").config();
 const token = process.env.BOT_TOKEN;
 const luis = process.env.LUIS_URL;
 
-// Response setup
-let rawdata = fs.readFileSync("./responses.json");
-let responses = {};
-let arr = JSON.parse(rawdata);
-for (let i = 0; i < arr.length; i++) {
-  responses[arr[i].intent] = arr[i].response;
-}
+// Response parsing
+let raw = fs.readFileSync("./responses.json");
+let responses = JSON.parse(raw).reduce(
+  (a, x) => ({ ...a, [x.intent]: x.response }),
+  {}
+);
 
 // Bot setup
 const bot = new TelegramBot(token, { polling: true });
@@ -39,11 +38,8 @@ function handleMessage(msg) {
   switch (text) {
     case "/broke":
     case "/broke@nusmash_bot":
-      bot.sendMessage(chatId, "look how broke this bad boy is");
-      bot.sendDocument(
-        chatId,
-        "https://ultimateframedata.com/hitboxes/mr_game_and_watch/MrGame_WatchDSmash.gif"
-      );
+      bot.sendMessage(chatId, responses["/broke"].text);
+      bot.sendDocument(chatId, responses["/broke"].media);
       break;
     default:
       processLanguage(chatId, text);
@@ -56,7 +52,8 @@ function processLanguage(chatId, text) {
     axios
       .get(luis + text)
       .then(function (response) {
-        let reply = responses[response.data.prediction.topIntent];
+        let intent = response.data.prediction.topIntent;
+        let reply = responses[intent].text;
         if (reply) {
           bot.sendMessage(chatId, reply);
         }

@@ -1,38 +1,64 @@
 [
     {
+        "intent": "/broke",
+        "response": {
+            "text": "look how broke this bad boy is",
+            "media": "https://ultimateframedata.com/hitboxes/mr_game_and_watch/MrGame_WatchDSmash.gif"
+        }
+        
+    },
+    {
         "intent": "gnw",
-        "response": "gnw players are all bad people"
+        "response": {
+            "text": "gnw players are all bad people"
+        } 
     },
     {
         "intent": "palu",
-        "response": "palu is way too good for how easy she is"
+        "response": {
+            "text": "palu is way too good for how easy she is"
+        } 
     }, 
     {
         "intent": "pika",
-        "response": "pika kinda broke but at least it takes effort"
+        "response": {
+            "text": "pika kinda broke but at least it takes effort"
+        }
     }, 
     {
         "intent": "sonic",
-        "response": "sonic on wifi is like late stage cancer"
+        "response": {
+            "text": "sonic on wifi is like late stage cancer"
+        }
     }, 
     {
         "intent": "cancer",
-        "response": "GNW is the most cancer character. Followed by palu."
+        "response": {
+            "text": "GNW is the most cancer character. Followed by palu."
+        }
     }, 
     {
         "intent": "kh",
-        "response": "do not speak the name of the exiled."
+        "response": {
+            "text": "do not speak the name of the exiled"
+        }
     }, 
     {
         "intent": "lylat",
-        "response": "please remove lylat from stage rotation"
+        "response": {
+            "text": "remove lylat from stage rotation"
+        }
     },
     {
         "intent": "nuseg",
-        "response": "nuseg and everyone in it is evil"
+        "response": {
+            "text": "nuseg and everyone in it is evil"
+        }
     },  
     {
         "intent": "anime",
-        "response": "weebs"
+        "response": {
+            "text": "weebs"
+        }
     }
 ]
