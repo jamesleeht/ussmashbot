@@ -10,7 +10,7 @@
     {
         "intent": "gnw",
         "response": {
-            "text": "gnw players are all bad people"
+            "text": "gnw players are true big brain players"
         } 
     },
     {
@@ -22,7 +22,7 @@
     {
         "intent": "pika",
         "response": {
-            "text": "pika kinda broke but at least it takes effort"
+            "text": "pika kinda broke and it takes no effort"
         }
     }, 
     {
@@ -34,7 +34,7 @@
     {
         "intent": "cancer",
         "response": {
-            "text": "GNW is the most cancer character. Followed by palu."
+            "text": "palu is the most cancer character"
         }
     }, 
     {
