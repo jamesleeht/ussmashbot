@@ -27,7 +27,7 @@ bot.on("message", (msg) => {
 bot.on("new_chat_members", (msg) => {
   bot.sendMessage(
     msg.chat.id,
-    "Welcome! If you'd like, you can share your school, year, major, (and main) so we can get to know you better :)"
+    responses["#welcome"].text
   );
 });
 
@@ -53,9 +53,11 @@ function processLanguage(chatId, text) {
       .get(luis + text)
       .then(function (response) {
         let intent = response.data.prediction.topIntent;
-        let reply = responses[intent].text;
-        if (reply) {
-          bot.sendMessage(chatId, reply);
+        if(intent != "None") {
+          let reply = responses[intent].text;
+          if (reply) {
+            bot.sendMessage(chatId, reply);
+          }
         }
       })
       .catch(function (error) {

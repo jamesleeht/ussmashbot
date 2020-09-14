@@ -1,5 +1,11 @@
 [
     {
+        "intent": "#welcome",
+        "response": {
+            "text": "Welcome! If you'd like, you can share your school, year, major, (and main) so we can get to know you better :)"
+        }
+    },
+    {
         "intent": "/broke",
         "response": {
             "text": "look how broke this bad boy is",
