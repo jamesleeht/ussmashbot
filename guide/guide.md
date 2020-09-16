@@ -3,13 +3,13 @@
 
 There are 2 parts to making a bot respond to messages:
 
-1. The bot has to know what to look out for. It has to detect the intent (or purpose) behind eevery message.
+1. The bot has to know what to look out for. It has to detect the intent (or purpose) behind every message.
 2. The bot has to know what to respond if it detects a certaint intent.
 
 ### LUIS (To add intents)
 
 1. Please request for access to the LUIS account by sending me your email
-2. Go to luis.ai and create account/sign in with that email. If you have a Microsoft email (including NUS), it's likely you can already sign in.
+2. Go to https://luis.ai and create account/sign in with that email. If you have a Microsoft email (including NUS), it's likely you can already sign in.
 3. Click on `USSmash Bot`
 4. Click on create under `Intents` at the top.
 
