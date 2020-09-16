@@ -66,11 +66,11 @@
         "response": {
             "text": "weebs"
         }
-    }
+    },
     {
         "intent": "james",
         "response": {
             "text": "stylo milo but no skillo"
         } 
-    }, 
+    }
 ]
