@@ -47,7 +47,7 @@
     "intent": "cancer",
     "response": [
       {
-        "text": "GNW is the most cancer character. Followed by palu."
+        "text": "kill it with fire"
       }
     ]
   },
@@ -56,6 +56,9 @@
     "response": [
       {
         "text": "do not speak the name of the exiled"
+      },
+       {
+        "text": "my stapler has more personality than him"
       }
     ]
   },
