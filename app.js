@@ -54,7 +54,8 @@ function processLanguage(chatId, text) {
       .then(function (response) {
         let intent = response.data.prediction.topIntent;
         if(intent != "None") {
-          let reply = responses[intent].text;
+          let replies = responses[intent];
+          let reply = replies[Math.floor(Math.random() * replies.length)].text;
           if (reply) {
             bot.sendMessage(chatId, reply);
           }

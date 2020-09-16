@@ -80,6 +80,9 @@
     "response": [
       {
         "text": "weebs"
+      },
+      {
+        "text": "uwu senpaiiii~"
       }
     ]
   },
@@ -88,6 +91,22 @@
     "response": [
       {
         "text": "stylo milo but no skillo"
+      }
+    ]
+  },
+  {
+    "intent": "simp",
+    "response": [
+      {
+        "text": "simp"
+      }
+    ]
+  },
+  {
+    "intent": "goodBot",
+    "response": [
+      {
+        "text": "thank u onii-chan <3"
       }
     ]
   }
