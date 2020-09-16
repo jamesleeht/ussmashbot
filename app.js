@@ -27,7 +27,7 @@ bot.on("message", (msg) => {
 bot.on("new_chat_members", (msg) => {
   bot.sendMessage(
     msg.chat.id,
-    responses["#welcome"].text
+    responses["#welcome"][0].text
   );
 });
 
@@ -38,8 +38,8 @@ function handleMessage(msg) {
   switch (text) {
     case "/broke":
     case "/broke@nusmash_bot":
-      bot.sendMessage(chatId, responses["/broke"].text);
-      bot.sendDocument(chatId, responses["/broke"].media);
+      bot.sendMessage(chatId, responses["/broke"][0].text);
+      bot.sendDocument(chatId, responses["/broke"][0].media);
       break;
     default:
       processLanguage(chatId, text);
