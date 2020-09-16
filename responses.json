@@ -72,5 +72,11 @@
         "response": {
             "text": "stylo milo but no skillo"
         } 
+    },
+     {
+        "intent": "simp",
+        "response": {
+            "text": "simp"
+        } 
     }
 ]
