@@ -2,112 +2,92 @@
   {
     "intent": "#welcome",
     "response": [
-      {
-        "text": "Welcome! If you'd like, you can share your school, year, major, (and main) so we can get to know you better :)"
-      }
+      {"text": "Welcome! If you'd like, you can share your school, year, major, (and main) so we can get to know you better :)"}
     ]
   },
   {
     "intent": "/broke",
     "response": [
-      {
-        "text": "look how broke this bad boy is",
-        "media": "https://ultimateframedata.com/hitboxes/mr_game_and_watch/MrGame_WatchDSmash.gif"
-      }
+      {"text": "look how broke this bad boy is"},
+      {"media": "https://ultimateframedata.com/hitboxes/mr_game_and_watch/MrGame_WatchDSmash.gif"}
     ]
   },
   {
     "intent": "gnw",
     "response": [
-      { "text": "gnw players are all bad people" },
-      { "text": "i hate gnw players to infinity" }
+      {"text": "gnw players are all bad people"},
+      {"text": "i hate gnw players to infinity"}
     ]
   },
   {
     "intent": "palu",
-    "response": [{ "text": "palu is way too good for how easy she is" }]
+    "response": [
+      {"text": "palu is way too good for how easy she is"},
+      {"text": "aerial spam is braindead"}            
+    ]
   },
   {
     "intent": "pika",
     "response": [
-      {
-        "text": "pika kinda broke but at least it takes effort"
-      }
+      {"text": "pika kinda broke but at least it takes effort"}
     ]
   },
   {
     "intent": "sonic",
     "response": [
-      {
-        "text": "sonic on wifi is like late stage cancer"
-      }
+      {"text": "sonic on wifi is like late stage cancer"}
     ]
   },
   {
     "intent": "cancer",
     "response": [
-      {
-        "text": "GNW is the most cancer character. Followed by palu."
-      }
+      {"text": "GNW is the most cancer character. Followed by palu."}
     ]
   },
   {
     "intent": "kh",
     "response": [
-      {
-        "text": "do not speak the name of the exiled"
-      }
+      {"text": "do not speak the name of the exiled"}
     ]
   },
   {
     "intent": "lylat",
     "response": [
-      {
-        "text": "remove lylat from stage rotation"
-      }
+      {"text": "remove lylat from stage rotation"}
     ]
   },
   {
     "intent": "nuseg",
     "response": [
-      {
-        "text": "nuseg and everyone in it is evil"
-      }
+      {"text": "nuseg and everyone in it is evil"},
+      {"text": "fuck bob"}
     ]
   },
   {
     "intent": "anime",
     "response": [
-      {
-        "text": "weebs"
-      },
-      {
-        "text": "uwu senpaiiii~"
-      }
+      {"text": "weebs"},
+      {"text": "uwu senpaiiii~"}
     ]
   },
   {
     "intent": "james",
     "response": [
-      {
-        "text": "stylo milo but no skillo"
-      }
+      {"text": "stylo milo but no skillo"}
     ]
   },
   {
     "intent": "simp",
     "response": [
-      {
-        "text": "simp"
-      }
+      {"text": "simp"},
+      {"text": "filthy simp"}
     ]
   },
   {
     "intent": "goodBot",
     "response": [
-      {
-        "text": "thank u onii-chan <3"
-      }
+      {"text": "thank u onii-chan <3"},
+      {"text": "bot-chan is shiawase desu~"}
     ]
   }
 ]
