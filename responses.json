@@ -78,5 +78,11 @@
         "response": {
             "text": "simp"
         } 
+    },
+        {
+        "intent": "goodBot",
+        "response": {
+            "text": "good bot"
+        } 
     }
 ]
