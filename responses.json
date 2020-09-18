@@ -112,5 +112,13 @@
         "text": "thank u onii-chan <3"
       }
     ]
+  },
+  {
+    "intent": "badBot",
+    "response": [
+      {
+        "text": "i'm sorry onii-chan i will do better :("
+      }
+    ]
   }
 ]
