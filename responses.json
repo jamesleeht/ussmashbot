@@ -59,6 +59,9 @@
       },
        {
         "text": "my stapler has more personality than him"
+      },
+       {
+        "text": "he probably machine-learned that"
       }
     ]
   },
@@ -95,13 +98,19 @@
       {
         "text": "stylo milo but no skillo"
       }
+       {
+        "text": "daddy~"
+      },
     ]
   },
   {
     "intent": "simp",
     "response": [
       {
-        "text": "simp"
+        "text": "filthy simp"
+      },
+       {
+        "text": "lick my boots slave"
       }
     ]
   },
@@ -110,6 +119,9 @@
     "response": [
       {
         "text": "thank u onii-chan <3"
+      },
+       {
+        "text": "kyaaaaa~ senpai noticed me!"
       }
     ]
   },
@@ -118,6 +130,9 @@
     "response": [
       {
         "text": "i'm sorry onii-chan i will do better :("
+      },
+       {
+        "text": "uwu onii-chan please have mercy QAQ"
       }
     ]
   }
