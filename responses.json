@@ -135,5 +135,13 @@
         "text": "uwu onii-chan please have mercy QAQ"
       }
     ]
+  },
+    {
+    "intent": "sad",
+    "response": [
+      {
+        "text": "alexa play despacito"
+      }
+    ]
   }
 ]
