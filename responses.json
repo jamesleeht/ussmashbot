@@ -115,6 +115,14 @@
     ]
   },
   {
+    "intent": "boomer",
+    "response": [
+      {
+        "text": "boomer"
+      }
+    ]
+  },
+  {
     "intent": "goodBot",
     "response": [
       {
